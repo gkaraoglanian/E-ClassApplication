@@ -1,0 +1,8 @@
+############################################
+#					   #
+# 1. Commit messages should be in english. #
+#                                          #
+# 2. Commit messages should be compact and #
+#    descriptive of the changes.	   #
+#					   #
+############################################
