@@ -4,6 +4,4 @@
 
 1. UseCase Diagram: add box for system
 2. UseCase Diagram: add logout action
-3. Class Diagram: add form factory abstract and solid
-4. Class Diagram: add form classes
-5. Class Diagram: add database class
+3. Class Diagram: add database class
