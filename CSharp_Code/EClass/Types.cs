@@ -1,4 +1,5 @@
-﻿namespace Types
+﻿// TODO add this to class diagram v2
+namespace Types
 {
 	public struct UserTypes
 	{
