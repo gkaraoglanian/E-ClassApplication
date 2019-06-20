@@ -80,6 +80,8 @@ namespace E_Class
             AssignProjectBtn.Hide();
             GradeGroupBox.Hide();
 
+
+            StudentsList.Anchor = (AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Top);
             TeamGroupBox.Show();
             StudentsList.Show();
             TeamGroupBox.Location = new Point(550, 12);
@@ -109,7 +111,7 @@ namespace E_Class
             GradeList.Hide();
             GradeGroupBox.Hide();
 
-
+            StudentsList.Anchor = (AnchorStyles.Bottom | AnchorStyles.Right | AnchorStyles.Top);
             AssignToWhomLabel.Show();
             AssignProjectBtn.Show();
             ProjectList.Show();

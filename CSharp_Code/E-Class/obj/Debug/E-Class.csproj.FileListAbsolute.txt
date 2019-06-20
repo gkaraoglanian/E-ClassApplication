@@ -22,3 +22,4 @@ C:\Users\Mike\source\E-ClassApplication\CSharp_Code\E-Class\obj\Debug\E-Class.cs
 C:\Users\Mike\source\E-ClassApplication\CSharp_Code\E-Class\obj\Debug\E-Class.csproj.CoreCompileInputs.cache
 C:\Users\Mike\source\E-ClassApplication\CSharp_Code\E-Class\obj\Debug\E-Class.exe
 C:\Users\Mike\source\E-ClassApplication\CSharp_Code\E-Class\obj\Debug\E-Class.pdb
+C:\Users\Mike\source\E-ClassApplication\CSharp_Code\E-Class\obj\Debug\E_Class.StudentForm.resources

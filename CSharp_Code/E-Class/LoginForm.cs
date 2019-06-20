@@ -46,5 +46,11 @@ namespace E_Class
             ProfessorForm form = new ProfessorForm();
             form.ShowDialog();
         }
+
+        private void LoginStudent_Click(object sender, EventArgs e)
+        {
+            StudentForm form = new StudentForm();
+            form.ShowDialog();
+        }
     }
 }

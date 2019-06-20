@@ -150,6 +150,7 @@
             // 
             // ProjectGroupBox
             // 
+            this.ProjectGroupBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.ProjectGroupBox.BackColor = System.Drawing.Color.White;
             this.ProjectGroupBox.Controls.Add(this.richTextBox1);
             this.ProjectGroupBox.Controls.Add(this.numericUpDown1);
@@ -299,6 +300,7 @@
             // 
             // TeamGroupBox
             // 
+            this.TeamGroupBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.TeamGroupBox.BackColor = System.Drawing.Color.White;
             this.TeamGroupBox.Controls.Add(this.TeamMembersList);
             this.TeamGroupBox.Controls.Add(this.label2);
@@ -412,6 +414,8 @@
             // 
             // StudentsList
             // 
+            this.StudentsList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.StudentsList.Location = new System.Drawing.Point(248, 327);
             this.StudentsList.Margin = new System.Windows.Forms.Padding(2);
             this.StudentsList.Name = "StudentsList";
@@ -421,6 +425,8 @@
             // 
             // ProjectList
             // 
+            this.ProjectList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.ProjectList.Location = new System.Drawing.Point(152, 327);
             this.ProjectList.Margin = new System.Windows.Forms.Padding(2);
             this.ProjectList.Name = "ProjectList";
@@ -430,6 +436,7 @@
             // 
             // AssignProjectBtn
             // 
+            this.AssignProjectBtn.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.AssignProjectBtn.Location = new System.Drawing.Point(213, 453);
             this.AssignProjectBtn.Name = "AssignProjectBtn";
             this.AssignProjectBtn.Size = new System.Drawing.Size(90, 40);
@@ -439,6 +446,7 @@
             // 
             // AssignToWhomLabel
             // 
+            this.AssignToWhomLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.AssignToWhomLabel.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.AssignToWhomLabel.Location = new System.Drawing.Point(149, 410);
             this.AssignToWhomLabel.Name = "AssignToWhomLabel";
@@ -447,6 +455,8 @@
             // 
             // GradeList
             // 
+            this.GradeList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.GradeList.Location = new System.Drawing.Point(345, 327);
             this.GradeList.Name = "GradeList";
             this.GradeList.Size = new System.Drawing.Size(92, 80);
@@ -455,6 +465,7 @@
             // 
             // GradeGroupBox
             // 
+            this.GradeGroupBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.GradeGroupBox.BackColor = System.Drawing.Color.White;
             this.GradeGroupBox.Controls.Add(this.button3);
             this.GradeGroupBox.Controls.Add(this.numericUpDown2);
