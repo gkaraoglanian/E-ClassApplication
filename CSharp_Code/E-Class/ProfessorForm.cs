@@ -20,7 +20,8 @@ namespace E_Class
             ProjectList.Hide();
 
 
-            StudentsList.Bounds = new Rectangle(new Point(196, 12), new Size(375, 575));
+            StudentsList.Bounds = new Rectangle(new Point(196, 12), new Size(375, 500));
+            ProjectList.Bounds = new Rectangle(new Point(196, 12), new Size(250, 500));
             CreateEditTeamGroupBox.Bounds = new Rectangle(new Point(578, 12), new Size(430, 400));
             CreateEditTeamGroupBox.Show();
             StudentsList.Show();

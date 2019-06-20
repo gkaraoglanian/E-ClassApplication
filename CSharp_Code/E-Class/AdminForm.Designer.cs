@@ -80,83 +80,93 @@
             // 
             // RegNumBox
             // 
-            this.RegNumBox.Location = new System.Drawing.Point(26, 82);
+            this.RegNumBox.Location = new System.Drawing.Point(20, 67);
+            this.RegNumBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.RegNumBox.Name = "RegNumBox";
-            this.RegNumBox.Size = new System.Drawing.Size(228, 22);
+            this.RegNumBox.Size = new System.Drawing.Size(172, 20);
             this.RegNumBox.TabIndex = 0;
             // 
             // RegNumLabel
             // 
             this.RegNumLabel.AutoSize = true;
-            this.RegNumLabel.Location = new System.Drawing.Point(26, 59);
+            this.RegNumLabel.Location = new System.Drawing.Point(20, 48);
+            this.RegNumLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.RegNumLabel.Name = "RegNumLabel";
-            this.RegNumLabel.Size = new System.Drawing.Size(96, 17);
+            this.RegNumLabel.Size = new System.Drawing.Size(73, 13);
             this.RegNumLabel.TabIndex = 1;
             this.RegNumLabel.Text = "Registration #";
             // 
             // NameLabel
             // 
             this.NameLabel.AutoSize = true;
-            this.NameLabel.Location = new System.Drawing.Point(26, 125);
+            this.NameLabel.Location = new System.Drawing.Point(20, 102);
+            this.NameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.NameLabel.Name = "NameLabel";
-            this.NameLabel.Size = new System.Drawing.Size(45, 17);
+            this.NameLabel.Size = new System.Drawing.Size(35, 13);
             this.NameLabel.TabIndex = 3;
             this.NameLabel.Text = "Name";
             // 
             // NameBox
             // 
-            this.NameBox.Location = new System.Drawing.Point(26, 148);
+            this.NameBox.Location = new System.Drawing.Point(20, 120);
+            this.NameBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.NameBox.Name = "NameBox";
-            this.NameBox.Size = new System.Drawing.Size(228, 22);
+            this.NameBox.Size = new System.Drawing.Size(172, 20);
             this.NameBox.TabIndex = 2;
             // 
             // SurnameLabel
             // 
             this.SurnameLabel.AutoSize = true;
-            this.SurnameLabel.Location = new System.Drawing.Point(306, 125);
+            this.SurnameLabel.Location = new System.Drawing.Point(230, 102);
+            this.SurnameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.SurnameLabel.Name = "SurnameLabel";
-            this.SurnameLabel.Size = new System.Drawing.Size(65, 17);
+            this.SurnameLabel.Size = new System.Drawing.Size(49, 13);
             this.SurnameLabel.TabIndex = 5;
             this.SurnameLabel.Text = "Surname";
             // 
             // SurnameBox
             // 
-            this.SurnameBox.Location = new System.Drawing.Point(306, 148);
+            this.SurnameBox.Location = new System.Drawing.Point(230, 120);
+            this.SurnameBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SurnameBox.Name = "SurnameBox";
-            this.SurnameBox.Size = new System.Drawing.Size(228, 22);
+            this.SurnameBox.Size = new System.Drawing.Size(172, 20);
             this.SurnameBox.TabIndex = 4;
             // 
             // EmailLabel
             // 
             this.EmailLabel.AutoSize = true;
-            this.EmailLabel.Location = new System.Drawing.Point(26, 195);
+            this.EmailLabel.Location = new System.Drawing.Point(20, 158);
+            this.EmailLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.EmailLabel.Name = "EmailLabel";
-            this.EmailLabel.Size = new System.Drawing.Size(42, 17);
+            this.EmailLabel.Size = new System.Drawing.Size(32, 13);
             this.EmailLabel.TabIndex = 7;
             this.EmailLabel.Text = "Email";
             // 
             // EmailBox
             // 
-            this.EmailBox.Location = new System.Drawing.Point(26, 218);
+            this.EmailBox.Location = new System.Drawing.Point(20, 177);
+            this.EmailBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.EmailBox.Name = "EmailBox";
-            this.EmailBox.Size = new System.Drawing.Size(228, 22);
+            this.EmailBox.Size = new System.Drawing.Size(172, 20);
             this.EmailBox.TabIndex = 6;
             // 
             // PassLabel
             // 
             this.PassLabel.AutoSize = true;
-            this.PassLabel.Location = new System.Drawing.Point(306, 195);
+            this.PassLabel.Location = new System.Drawing.Point(230, 158);
+            this.PassLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.PassLabel.Name = "PassLabel";
-            this.PassLabel.Size = new System.Drawing.Size(69, 17);
+            this.PassLabel.Size = new System.Drawing.Size(53, 13);
             this.PassLabel.TabIndex = 9;
             this.PassLabel.Text = "Password";
             // 
             // PassBox
             // 
-            this.PassBox.Location = new System.Drawing.Point(306, 218);
+            this.PassBox.Location = new System.Drawing.Point(230, 177);
+            this.PassBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PassBox.Name = "PassBox";
             this.PassBox.PasswordChar = '*';
-            this.PassBox.Size = new System.Drawing.Size(228, 22);
+            this.PassBox.Size = new System.Drawing.Size(172, 20);
             this.PassBox.TabIndex = 8;
             // 
             // CapacityBox
@@ -166,17 +176,19 @@
             this.CapacityBox.Items.AddRange(new object[] {
             "Professor",
             "Student"});
-            this.CapacityBox.Location = new System.Drawing.Point(306, 80);
+            this.CapacityBox.Location = new System.Drawing.Point(230, 65);
+            this.CapacityBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CapacityBox.Name = "CapacityBox";
-            this.CapacityBox.Size = new System.Drawing.Size(228, 24);
+            this.CapacityBox.Size = new System.Drawing.Size(172, 21);
             this.CapacityBox.TabIndex = 10;
             // 
             // CapacityLabel
             // 
             this.CapacityLabel.AutoSize = true;
-            this.CapacityLabel.Location = new System.Drawing.Point(303, 59);
+            this.CapacityLabel.Location = new System.Drawing.Point(227, 48);
+            this.CapacityLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.CapacityLabel.Name = "CapacityLabel";
-            this.CapacityLabel.Size = new System.Drawing.Size(62, 17);
+            this.CapacityLabel.Size = new System.Drawing.Size(48, 13);
             this.CapacityLabel.TabIndex = 11;
             this.CapacityLabel.Text = "Capacity";
             // 
@@ -184,9 +196,10 @@
             // 
             this.CreateEditUserBtn.BackColor = System.Drawing.Color.WhiteSmoke;
             this.CreateEditUserBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.CreateEditUserBtn.Location = new System.Drawing.Point(192, 251);
+            this.CreateEditUserBtn.Location = new System.Drawing.Point(144, 204);
+            this.CreateEditUserBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CreateEditUserBtn.Name = "CreateEditUserBtn";
-            this.CreateEditUserBtn.Size = new System.Drawing.Size(173, 46);
+            this.CreateEditUserBtn.Size = new System.Drawing.Size(130, 37);
             this.CreateEditUserBtn.TabIndex = 12;
             this.CreateEditUserBtn.Text = "Create";
             this.CreateEditUserBtn.UseVisualStyleBackColor = false;
@@ -221,18 +234,21 @@
             this.UserGroupBox.Controls.Add(this.SurnameErrorLabel);
             this.UserGroupBox.Controls.Add(this.PassErrorLabel);
             this.UserGroupBox.Controls.Add(this.CapacityErrorLabel);
-            this.UserGroupBox.Location = new System.Drawing.Point(223, 43);
+            this.UserGroupBox.Location = new System.Drawing.Point(167, 35);
+            this.UserGroupBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.UserGroupBox.Name = "UserGroupBox";
-            this.UserGroupBox.Size = new System.Drawing.Size(557, 363);
+            this.UserGroupBox.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UserGroupBox.Size = new System.Drawing.Size(418, 295);
             this.UserGroupBox.TabIndex = 13;
             this.UserGroupBox.TabStop = false;
             this.UserGroupBox.Text = "CreateEditUsers";
             // 
             // CreateEditUserLabel
             // 
-            this.CreateEditUserLabel.Location = new System.Drawing.Point(82, 19);
+            this.CreateEditUserLabel.Location = new System.Drawing.Point(62, 15);
+            this.CreateEditUserLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.CreateEditUserLabel.Name = "CreateEditUserLabel";
-            this.CreateEditUserLabel.Size = new System.Drawing.Size(383, 33);
+            this.CreateEditUserLabel.Size = new System.Drawing.Size(287, 27);
             this.CreateEditUserLabel.TabIndex = 26;
             this.CreateEditUserLabel.Text = "label";
             this.CreateEditUserLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -241,9 +257,10 @@
             // 
             this.CancelUsersBtn.BackColor = System.Drawing.Color.WhiteSmoke;
             this.CancelUsersBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CancelUsersBtn.Location = new System.Drawing.Point(242, 303);
+            this.CancelUsersBtn.Location = new System.Drawing.Point(182, 246);
+            this.CancelUsersBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CancelUsersBtn.Name = "CancelUsersBtn";
-            this.CancelUsersBtn.Size = new System.Drawing.Size(75, 27);
+            this.CancelUsersBtn.Size = new System.Drawing.Size(56, 22);
             this.CancelUsersBtn.TabIndex = 31;
             this.CancelUsersBtn.Text = "Cancel";
             this.CancelUsersBtn.UseVisualStyleBackColor = false;
@@ -254,9 +271,10 @@
             this.PassMsgLabel.AutoSize = true;
             this.PassMsgLabel.BackColor = System.Drawing.Color.White;
             this.PassMsgLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.PassMsgLabel.Location = new System.Drawing.Point(374, 201);
+            this.PassMsgLabel.Location = new System.Drawing.Point(280, 163);
+            this.PassMsgLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.PassMsgLabel.Name = "PassMsgLabel";
-            this.PassMsgLabel.Size = new System.Drawing.Size(24, 17);
+            this.PassMsgLabel.Size = new System.Drawing.Size(19, 13);
             this.PassMsgLabel.TabIndex = 26;
             this.PassMsgLabel.Text = "no";
             // 
@@ -265,9 +283,10 @@
             this.SurnameMsgLabel.AutoSize = true;
             this.SurnameMsgLabel.BackColor = System.Drawing.Color.White;
             this.SurnameMsgLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.SurnameMsgLabel.Location = new System.Drawing.Point(374, 130);
+            this.SurnameMsgLabel.Location = new System.Drawing.Point(280, 106);
+            this.SurnameMsgLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.SurnameMsgLabel.Name = "SurnameMsgLabel";
-            this.SurnameMsgLabel.Size = new System.Drawing.Size(24, 17);
+            this.SurnameMsgLabel.Size = new System.Drawing.Size(19, 13);
             this.SurnameMsgLabel.TabIndex = 27;
             this.SurnameMsgLabel.Text = "no";
             // 
@@ -276,9 +295,10 @@
             this.CapacityMsgLabel.AutoSize = true;
             this.CapacityMsgLabel.BackColor = System.Drawing.Color.White;
             this.CapacityMsgLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.CapacityMsgLabel.Location = new System.Drawing.Point(374, 62);
+            this.CapacityMsgLabel.Location = new System.Drawing.Point(280, 50);
+            this.CapacityMsgLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.CapacityMsgLabel.Name = "CapacityMsgLabel";
-            this.CapacityMsgLabel.Size = new System.Drawing.Size(24, 17);
+            this.CapacityMsgLabel.Size = new System.Drawing.Size(19, 13);
             this.CapacityMsgLabel.TabIndex = 28;
             this.CapacityMsgLabel.Text = "no";
             // 
@@ -287,9 +307,10 @@
             this.RegMsgLabel.AutoSize = true;
             this.RegMsgLabel.BackColor = System.Drawing.Color.White;
             this.RegMsgLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.RegMsgLabel.Location = new System.Drawing.Point(128, 65);
+            this.RegMsgLabel.Location = new System.Drawing.Point(96, 53);
+            this.RegMsgLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.RegMsgLabel.Name = "RegMsgLabel";
-            this.RegMsgLabel.Size = new System.Drawing.Size(24, 17);
+            this.RegMsgLabel.Size = new System.Drawing.Size(19, 13);
             this.RegMsgLabel.TabIndex = 29;
             this.RegMsgLabel.Text = "no";
             // 
@@ -298,9 +319,10 @@
             this.NameMsgLabel.AutoSize = true;
             this.NameMsgLabel.BackColor = System.Drawing.Color.White;
             this.NameMsgLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.NameMsgLabel.Location = new System.Drawing.Point(67, 129);
+            this.NameMsgLabel.Location = new System.Drawing.Point(50, 105);
+            this.NameMsgLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.NameMsgLabel.Name = "NameMsgLabel";
-            this.NameMsgLabel.Size = new System.Drawing.Size(24, 17);
+            this.NameMsgLabel.Size = new System.Drawing.Size(19, 13);
             this.NameMsgLabel.TabIndex = 30;
             this.NameMsgLabel.Text = "no";
             // 
@@ -309,58 +331,65 @@
             this.EmailMsgLabel.AutoSize = true;
             this.EmailMsgLabel.BackColor = System.Drawing.Color.White;
             this.EmailMsgLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.EmailMsgLabel.Location = new System.Drawing.Point(67, 200);
+            this.EmailMsgLabel.Location = new System.Drawing.Point(50, 162);
+            this.EmailMsgLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.EmailMsgLabel.Name = "EmailMsgLabel";
-            this.EmailMsgLabel.Size = new System.Drawing.Size(24, 17);
+            this.EmailMsgLabel.Size = new System.Drawing.Size(19, 13);
             this.EmailMsgLabel.TabIndex = 24;
             this.EmailMsgLabel.Text = "no";
             // 
             // RegNumErrorLabel
             // 
             this.RegNumErrorLabel.BackColor = System.Drawing.Color.Red;
-            this.RegNumErrorLabel.Location = new System.Drawing.Point(25, 81);
+            this.RegNumErrorLabel.Location = new System.Drawing.Point(19, 66);
+            this.RegNumErrorLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.RegNumErrorLabel.Name = "RegNumErrorLabel";
-            this.RegNumErrorLabel.Size = new System.Drawing.Size(230, 24);
+            this.RegNumErrorLabel.Size = new System.Drawing.Size(174, 22);
             this.RegNumErrorLabel.TabIndex = 13;
             // 
             // NameErrorLabel
             // 
             this.NameErrorLabel.BackColor = System.Drawing.Color.Red;
-            this.NameErrorLabel.Location = new System.Drawing.Point(25, 147);
+            this.NameErrorLabel.Location = new System.Drawing.Point(19, 119);
+            this.NameErrorLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.NameErrorLabel.Name = "NameErrorLabel";
-            this.NameErrorLabel.Size = new System.Drawing.Size(230, 24);
+            this.NameErrorLabel.Size = new System.Drawing.Size(174, 22);
             this.NameErrorLabel.TabIndex = 14;
             // 
             // EmailErrorLabel
             // 
             this.EmailErrorLabel.BackColor = System.Drawing.Color.Red;
-            this.EmailErrorLabel.Location = new System.Drawing.Point(25, 217);
+            this.EmailErrorLabel.Location = new System.Drawing.Point(19, 176);
+            this.EmailErrorLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.EmailErrorLabel.Name = "EmailErrorLabel";
-            this.EmailErrorLabel.Size = new System.Drawing.Size(230, 24);
+            this.EmailErrorLabel.Size = new System.Drawing.Size(174, 22);
             this.EmailErrorLabel.TabIndex = 25;
             // 
             // SurnameErrorLabel
             // 
             this.SurnameErrorLabel.BackColor = System.Drawing.Color.Red;
-            this.SurnameErrorLabel.Location = new System.Drawing.Point(305, 147);
+            this.SurnameErrorLabel.Location = new System.Drawing.Point(229, 119);
+            this.SurnameErrorLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.SurnameErrorLabel.Name = "SurnameErrorLabel";
-            this.SurnameErrorLabel.Size = new System.Drawing.Size(230, 24);
+            this.SurnameErrorLabel.Size = new System.Drawing.Size(174, 22);
             this.SurnameErrorLabel.TabIndex = 25;
             // 
             // PassErrorLabel
             // 
             this.PassErrorLabel.BackColor = System.Drawing.Color.Red;
-            this.PassErrorLabel.Location = new System.Drawing.Point(305, 217);
+            this.PassErrorLabel.Location = new System.Drawing.Point(229, 176);
+            this.PassErrorLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.PassErrorLabel.Name = "PassErrorLabel";
-            this.PassErrorLabel.Size = new System.Drawing.Size(230, 24);
+            this.PassErrorLabel.Size = new System.Drawing.Size(174, 22);
             this.PassErrorLabel.TabIndex = 25;
             // 
             // CapacityErrorLabel
             // 
             this.CapacityErrorLabel.BackColor = System.Drawing.Color.Red;
-            this.CapacityErrorLabel.Location = new System.Drawing.Point(305, 79);
+            this.CapacityErrorLabel.Location = new System.Drawing.Point(229, 64);
+            this.CapacityErrorLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.CapacityErrorLabel.Name = "CapacityErrorLabel";
-            this.CapacityErrorLabel.Size = new System.Drawing.Size(230, 26);
+            this.CapacityErrorLabel.Size = new System.Drawing.Size(174, 23);
             this.CapacityErrorLabel.TabIndex = 25;
             // 
             // label1
@@ -368,9 +397,10 @@
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.label1.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.label1.Location = new System.Drawing.Point(-32, -29);
+            this.label1.Location = new System.Drawing.Point(-24, -24);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(222, 722);
+            this.label1.Size = new System.Drawing.Size(166, 587);
             this.label1.TabIndex = 14;
             // 
             // CreateUserMnBtn
@@ -379,9 +409,10 @@
             this.CreateUserMnBtn.FlatAppearance.BorderSize = 0;
             this.CreateUserMnBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CreateUserMnBtn.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CreateUserMnBtn.Location = new System.Drawing.Point(-7, -3);
+            this.CreateUserMnBtn.Location = new System.Drawing.Point(-5, -2);
+            this.CreateUserMnBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CreateUserMnBtn.Name = "CreateUserMnBtn";
-            this.CreateUserMnBtn.Size = new System.Drawing.Size(197, 79);
+            this.CreateUserMnBtn.Size = new System.Drawing.Size(148, 64);
             this.CreateUserMnBtn.TabIndex = 15;
             this.CreateUserMnBtn.Text = "Create User";
             this.CreateUserMnBtn.UseVisualStyleBackColor = false;
@@ -393,9 +424,10 @@
             this.CreateCourseMnBtn.FlatAppearance.BorderSize = 0;
             this.CreateCourseMnBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CreateCourseMnBtn.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CreateCourseMnBtn.Location = new System.Drawing.Point(-7, 167);
+            this.CreateCourseMnBtn.Location = new System.Drawing.Point(-5, 136);
+            this.CreateCourseMnBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CreateCourseMnBtn.Name = "CreateCourseMnBtn";
-            this.CreateCourseMnBtn.Size = new System.Drawing.Size(197, 79);
+            this.CreateCourseMnBtn.Size = new System.Drawing.Size(148, 64);
             this.CreateCourseMnBtn.TabIndex = 16;
             this.CreateCourseMnBtn.Text = "Create Course";
             this.CreateCourseMnBtn.UseVisualStyleBackColor = false;
@@ -407,9 +439,10 @@
             this.AssignCoursesMnBtn.FlatAppearance.BorderSize = 0;
             this.AssignCoursesMnBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AssignCoursesMnBtn.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AssignCoursesMnBtn.Location = new System.Drawing.Point(-7, 337);
+            this.AssignCoursesMnBtn.Location = new System.Drawing.Point(-5, 274);
+            this.AssignCoursesMnBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.AssignCoursesMnBtn.Name = "AssignCoursesMnBtn";
-            this.AssignCoursesMnBtn.Size = new System.Drawing.Size(197, 79);
+            this.AssignCoursesMnBtn.Size = new System.Drawing.Size(148, 64);
             this.AssignCoursesMnBtn.TabIndex = 17;
             this.AssignCoursesMnBtn.Text = "Assign Courses";
             this.AssignCoursesMnBtn.UseVisualStyleBackColor = false;
@@ -422,9 +455,10 @@
             this.LogoutBtn.FlatAppearance.BorderSize = 0;
             this.LogoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LogoutBtn.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LogoutBtn.Location = new System.Drawing.Point(-7, 590);
+            this.LogoutBtn.Location = new System.Drawing.Point(-5, 479);
+            this.LogoutBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.LogoutBtn.Name = "LogoutBtn";
-            this.LogoutBtn.Size = new System.Drawing.Size(197, 79);
+            this.LogoutBtn.Size = new System.Drawing.Size(148, 64);
             this.LogoutBtn.TabIndex = 18;
             this.LogoutBtn.Text = "Logout";
             this.LogoutBtn.UseVisualStyleBackColor = false;
@@ -436,9 +470,10 @@
             this.EditDelUsersMnBtn.FlatAppearance.BorderSize = 0;
             this.EditDelUsersMnBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.EditDelUsersMnBtn.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EditDelUsersMnBtn.Location = new System.Drawing.Point(-7, 82);
+            this.EditDelUsersMnBtn.Location = new System.Drawing.Point(-5, 67);
+            this.EditDelUsersMnBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.EditDelUsersMnBtn.Name = "EditDelUsersMnBtn";
-            this.EditDelUsersMnBtn.Size = new System.Drawing.Size(197, 79);
+            this.EditDelUsersMnBtn.Size = new System.Drawing.Size(148, 64);
             this.EditDelUsersMnBtn.TabIndex = 20;
             this.EditDelUsersMnBtn.Text = "Edit|Delete Users";
             this.EditDelUsersMnBtn.UseVisualStyleBackColor = false;
@@ -450,9 +485,10 @@
             this.EditDelCoursesMnBtn.FlatAppearance.BorderSize = 0;
             this.EditDelCoursesMnBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.EditDelCoursesMnBtn.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EditDelCoursesMnBtn.Location = new System.Drawing.Point(-7, 252);
+            this.EditDelCoursesMnBtn.Location = new System.Drawing.Point(-5, 205);
+            this.EditDelCoursesMnBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.EditDelCoursesMnBtn.Name = "EditDelCoursesMnBtn";
-            this.EditDelCoursesMnBtn.Size = new System.Drawing.Size(197, 79);
+            this.EditDelCoursesMnBtn.Size = new System.Drawing.Size(148, 64);
             this.EditDelCoursesMnBtn.TabIndex = 21;
             this.EditDelCoursesMnBtn.Text = "Edit|Delete Courses";
             this.EditDelCoursesMnBtn.UseVisualStyleBackColor = false;
@@ -466,18 +502,21 @@
             this.CourseGroupBox.Controls.Add(this.CourseTitleBox);
             this.CourseGroupBox.Controls.Add(this.CourseTitleLabel);
             this.CourseGroupBox.Controls.Add(this.CourseTitleErrorLabel);
-            this.CourseGroupBox.Location = new System.Drawing.Point(822, 12);
+            this.CourseGroupBox.Location = new System.Drawing.Point(616, 10);
+            this.CourseGroupBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CourseGroupBox.Name = "CourseGroupBox";
-            this.CourseGroupBox.Size = new System.Drawing.Size(285, 214);
+            this.CourseGroupBox.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CourseGroupBox.Size = new System.Drawing.Size(214, 174);
             this.CourseGroupBox.TabIndex = 15;
             this.CourseGroupBox.TabStop = false;
             this.CourseGroupBox.Text = "CreateEdit Course";
             // 
             // CreateEditCourseLabel
             // 
-            this.CreateEditCourseLabel.Location = new System.Drawing.Point(31, 28);
+            this.CreateEditCourseLabel.Location = new System.Drawing.Point(23, 23);
+            this.CreateEditCourseLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.CreateEditCourseLabel.Name = "CreateEditCourseLabel";
-            this.CreateEditCourseLabel.Size = new System.Drawing.Size(228, 27);
+            this.CreateEditCourseLabel.Size = new System.Drawing.Size(171, 22);
             this.CreateEditCourseLabel.TabIndex = 32;
             this.CreateEditCourseLabel.Text = "label";
             this.CreateEditCourseLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -486,9 +525,10 @@
             // 
             this.CancelCoursesBtn.BackColor = System.Drawing.Color.WhiteSmoke;
             this.CancelCoursesBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CancelCoursesBtn.Location = new System.Drawing.Point(102, 171);
+            this.CancelCoursesBtn.Location = new System.Drawing.Point(76, 139);
+            this.CancelCoursesBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CancelCoursesBtn.Name = "CancelCoursesBtn";
-            this.CancelCoursesBtn.Size = new System.Drawing.Size(75, 27);
+            this.CancelCoursesBtn.Size = new System.Drawing.Size(56, 22);
             this.CancelCoursesBtn.TabIndex = 32;
             this.CancelCoursesBtn.Text = "Cancel";
             this.CancelCoursesBtn.UseVisualStyleBackColor = false;
@@ -498,9 +538,10 @@
             // 
             this.CreateEditCourseBtn.BackColor = System.Drawing.Color.WhiteSmoke;
             this.CreateEditCourseBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.CreateEditCourseBtn.Location = new System.Drawing.Point(53, 119);
+            this.CreateEditCourseBtn.Location = new System.Drawing.Point(40, 97);
+            this.CreateEditCourseBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CreateEditCourseBtn.Name = "CreateEditCourseBtn";
-            this.CreateEditCourseBtn.Size = new System.Drawing.Size(173, 46);
+            this.CreateEditCourseBtn.Size = new System.Drawing.Size(130, 37);
             this.CreateEditCourseBtn.TabIndex = 12;
             this.CreateEditCourseBtn.Text = "Create";
             this.CreateEditCourseBtn.UseVisualStyleBackColor = false;
@@ -508,35 +549,39 @@
             // 
             // CourseTitleBox
             // 
-            this.CourseTitleBox.Location = new System.Drawing.Point(31, 87);
+            this.CourseTitleBox.Location = new System.Drawing.Point(23, 71);
+            this.CourseTitleBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CourseTitleBox.Name = "CourseTitleBox";
-            this.CourseTitleBox.Size = new System.Drawing.Size(228, 22);
+            this.CourseTitleBox.Size = new System.Drawing.Size(172, 20);
             this.CourseTitleBox.TabIndex = 2;
             // 
             // CourseTitleLabel
             // 
             this.CourseTitleLabel.AutoSize = true;
-            this.CourseTitleLabel.Location = new System.Drawing.Point(31, 64);
+            this.CourseTitleLabel.Location = new System.Drawing.Point(23, 52);
+            this.CourseTitleLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.CourseTitleLabel.Name = "CourseTitleLabel";
-            this.CourseTitleLabel.Size = new System.Drawing.Size(79, 17);
+            this.CourseTitleLabel.Size = new System.Drawing.Size(59, 13);
             this.CourseTitleLabel.TabIndex = 3;
             this.CourseTitleLabel.Text = "Course title";
             // 
             // CourseTitleErrorLabel
             // 
             this.CourseTitleErrorLabel.BackColor = System.Drawing.Color.Red;
-            this.CourseTitleErrorLabel.Location = new System.Drawing.Point(30, 86);
+            this.CourseTitleErrorLabel.Location = new System.Drawing.Point(22, 70);
+            this.CourseTitleErrorLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.CourseTitleErrorLabel.Name = "CourseTitleErrorLabel";
-            this.CourseTitleErrorLabel.Size = new System.Drawing.Size(230, 24);
+            this.CourseTitleErrorLabel.Size = new System.Drawing.Size(174, 22);
             this.CourseTitleErrorLabel.TabIndex = 24;
             // 
             // UsersList
             // 
             this.UsersList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.UsersList.Location = new System.Drawing.Point(994, 490);
+            this.UsersList.Location = new System.Drawing.Point(746, 398);
+            this.UsersList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.UsersList.Name = "UsersList";
-            this.UsersList.Size = new System.Drawing.Size(131, 137);
+            this.UsersList.Size = new System.Drawing.Size(99, 112);
             this.UsersList.TabIndex = 22;
             this.UsersList.UseCompatibleStateImageBehavior = false;
             this.UsersList.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UsersList_MouseClick);
@@ -545,18 +590,20 @@
             // 
             this.CoursesList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.CoursesList.Location = new System.Drawing.Point(853, 490);
+            this.CoursesList.Location = new System.Drawing.Point(640, 398);
+            this.CoursesList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CoursesList.Name = "CoursesList";
-            this.CoursesList.Size = new System.Drawing.Size(135, 137);
+            this.CoursesList.Size = new System.Drawing.Size(102, 112);
             this.CoursesList.TabIndex = 23;
             this.CoursesList.UseCompatibleStateImageBehavior = false;
             this.CoursesList.MouseClick += new System.Windows.Forms.MouseEventHandler(this.CoursesList_MouseClick);
             // 
             // AssignCourseBtn
             // 
-            this.AssignCourseBtn.Location = new System.Drawing.Point(640, 490);
+            this.AssignCourseBtn.Location = new System.Drawing.Point(480, 398);
+            this.AssignCourseBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.AssignCourseBtn.Name = "AssignCourseBtn";
-            this.AssignCourseBtn.Size = new System.Drawing.Size(123, 52);
+            this.AssignCourseBtn.Size = new System.Drawing.Size(90, 40);
             this.AssignCourseBtn.TabIndex = 24;
             this.AssignCourseBtn.Text = "Assign";
             this.AssignCourseBtn.UseVisualStyleBackColor = true;
@@ -564,19 +611,21 @@
             // 
             // AssignMsgLabel
             // 
-            this.AssignMsgLabel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.AssignMsgLabel.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.AssignMsgLabel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.AssignMsgLabel.Location = new System.Drawing.Point(534, 409);
+            this.AssignMsgLabel.Location = new System.Drawing.Point(400, 332);
+            this.AssignMsgLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.AssignMsgLabel.Name = "AssignMsgLabel";
-            this.AssignMsgLabel.Size = new System.Drawing.Size(246, 44);
+            this.AssignMsgLabel.Size = new System.Drawing.Size(210, 36);
             this.AssignMsgLabel.TabIndex = 25;
+            this.AssignMsgLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // AdminForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1261, 669);
+            this.ClientSize = new System.Drawing.Size(1014, 549);
             this.Controls.Add(this.AssignMsgLabel);
             this.Controls.Add(this.AssignCourseBtn);
             this.Controls.Add(this.CoursesList);
@@ -590,7 +639,8 @@
             this.Controls.Add(this.CreateCourseMnBtn);
             this.Controls.Add(this.CreateUserMnBtn);
             this.Controls.Add(this.label1);
-            this.MinimumSize = new System.Drawing.Size(1196, 714);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MinimumSize = new System.Drawing.Size(1030, 587);
             this.Name = "AdminForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminForm";
