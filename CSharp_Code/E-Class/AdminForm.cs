@@ -44,7 +44,7 @@ namespace E_Class
 
 
             //Creating the UsersList
-            UsersList.Bounds = new Rectangle(new Point(196, 12), new Size(375, 575));
+            UsersList.Bounds = new Rectangle(new Point(196, 12), new Size(375, 500));
             UsersList.View = View.Details;
             UsersList.FullRowSelect = true;
             UsersList.GridLines = true;
@@ -107,7 +107,7 @@ namespace E_Class
 
 
             //Creating the CoursesList
-            CoursesList.Bounds = new Rectangle(new Point(196, 12), new Size(250, 575));
+            CoursesList.Bounds = new Rectangle(new Point(196, 12), new Size(250, 500));
             CoursesList.View = View.Details;
             CoursesList.FullRowSelect = true;
             CoursesList.GridLines = true;
