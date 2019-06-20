@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace E_Class
 {
@@ -37,6 +38,18 @@ namespace E_Class
             this.Dispose();
         }
 
-
+        private void BrowseBtn_Click(object sender, EventArgs e)
+        {
+            
+            OpenFileDialog openfDialog = new OpenFileDialog();
+            openFileDialog.CheckFileExists = true;
+            openFileDialog.CheckPathExists = true;
+            openFileDialog.Multiselect = false;
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                FileNameLabel.Text = openFileDialog.FileName;
+            }
+            
+        }
     }
 }

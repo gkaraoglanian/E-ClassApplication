@@ -37,7 +37,7 @@
             this.UploadGroupBox = new System.Windows.Forms.GroupBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.FileNameLabel = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -46,6 +46,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.UploadGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -95,6 +96,7 @@
             this.BrowseBtn.TabIndex = 12;
             this.BrowseBtn.Text = "Browse...";
             this.BrowseBtn.UseVisualStyleBackColor = false;
+            this.BrowseBtn.Click += new System.EventHandler(this.BrowseBtn_Click);
             // 
             // UploadBtn
             // 
@@ -123,7 +125,7 @@
             this.UploadGroupBox.BackColor = System.Drawing.Color.White;
             this.UploadGroupBox.Controls.Add(this.label11);
             this.UploadGroupBox.Controls.Add(this.label12);
-            this.UploadGroupBox.Controls.Add(this.label9);
+            this.UploadGroupBox.Controls.Add(this.FileNameLabel);
             this.UploadGroupBox.Controls.Add(this.label8);
             this.UploadGroupBox.Controls.Add(this.label6);
             this.UploadGroupBox.Controls.Add(this.label5);
@@ -163,15 +165,15 @@
             this.label12.TabIndex = 42;
             this.label12.Text = "Course Title:";
             // 
-            // label9
+            // FileNameLabel
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Gainsboro;
-            this.label9.Location = new System.Drawing.Point(170, 226);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(83, 13);
-            this.label9.TabIndex = 40;
-            this.label9.Text = "No file selected.";
+            this.FileNameLabel.AutoSize = true;
+            this.FileNameLabel.BackColor = System.Drawing.Color.Gainsboro;
+            this.FileNameLabel.Location = new System.Drawing.Point(170, 226);
+            this.FileNameLabel.Name = "FileNameLabel";
+            this.FileNameLabel.Size = new System.Drawing.Size(83, 13);
+            this.FileNameLabel.TabIndex = 40;
+            this.FileNameLabel.Text = "No file selected.";
             // 
             // label8
             // 
@@ -249,6 +251,10 @@
             this.label10.Size = new System.Drawing.Size(473, 95);
             this.label10.TabIndex = 41;
             // 
+            // openFileDialog
+            // 
+            this.openFileDialog.FileName = "openFileDialog1";
+            // 
             // StudentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -278,7 +284,7 @@
         private System.Windows.Forms.Button UploadBtn;
         private System.Windows.Forms.ListView TeamMembersList;
         private System.Windows.Forms.GroupBox UploadGroupBox;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label FileNameLabel;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -289,5 +295,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.OpenFileDialog openFileDialog;
     }
 }
