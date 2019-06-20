@@ -107,7 +107,7 @@ namespace E_Class
 
 
             //Creating the CoursesList
-            CoursesList.Bounds = new Rectangle(new Point(196, 12), new Size(250, 500));
+            CoursesList.Bounds = new Rectangle(new Point(150, 12), new Size(250, 500));
             CoursesList.View = View.Details;
             CoursesList.FullRowSelect = true;
             CoursesList.GridLines = true;
@@ -181,8 +181,8 @@ namespace E_Class
             ChangeMsgLabel("Create", "Courses");
             UsersList.Show();
             CourseGroupBox.Show();
-            this.CourseGroupBox.Location = new Point(578, 12);
-            this.UsersList.Location = new Point(196, 12);
+            this.CourseGroupBox.Location = new Point(550, 12);
+            this.UsersList.Location = new Point(150, 12);
         }
 
         private void CreateUserMenuBtn_Click(object sender, EventArgs e)
@@ -232,9 +232,9 @@ namespace E_Class
 
             CancelUsersBtn.Hide();
             CancelCoursesBtn.Hide();
-            UsersList.Location = new Point(780, 12);
-            AssignMsgLabel.Location = new Point(500, 50);
-            AssignCourseBtn.Location = new Point(560, 100);
+            UsersList.Location = new Point(635, 12);
+            AssignMsgLabel.Location = new Point(407, 50);
+            AssignCourseBtn.Location = new Point(467, 100);
         }
 
         private void EditDelUsersMnBtn_Click(object sender, EventArgs e)
@@ -254,8 +254,8 @@ namespace E_Class
             RegNumBox.Enabled = false;
             UserGroupBox.Show();
             UsersList.Show();
-            this.UserGroupBox.Location = new Point(578, 12);
-            this.UsersList.Location = new Point(196, 12);
+            this.UserGroupBox.Location = new Point(550, 12);
+            this.UsersList.Location = new Point(150, 12);
             ChangeMsgLabel("Edit", "Users");
             CreateEditUserBtn.Text = "Submit";
         }
@@ -275,8 +275,8 @@ namespace E_Class
             CoursesList.Show();
             CourseGroupBox.Show();
             ChangeMsgLabel("Edit", "Courses");
-            this.CourseGroupBox.Location = new Point(460, 12);
-            this.UsersList.Location = new Point(780, 12); 
+            this.CourseGroupBox.Location = new Point(410, 12);
+            this.UsersList.Location = new Point(635, 12); 
         }
 
         private void CreateEditUserBtn_Click(object sender, EventArgs e)

@@ -16,12 +16,6 @@ namespace E_Class
         public LoginForm()
         {
             InitializeComponent();
-            FadeOuttimer.Interval = 1;
-            //FadeOuttimer.Start();
-            //WelcomeLabel.Show();
-            WelcomeLabel.Hide();
-            //ProfessorForm form = new ProfessorForm();
-            //form.ShowDialog();
         }
 
         private void LogInBtn_Enter(object sender, EventArgs e)
@@ -39,19 +33,7 @@ namespace E_Class
             //AdminForm form = new AdminForm();
             //form.ShowDialog();
         }
-        
-        private void FadeOuttimer_Tick(object sender, EventArgs e)
-        {
-            progressBar.Value = 255 - gammaA;
-            WelcomeLabel.BackColor = Color.FromArgb(gammaA, 165, 190, 221);
-            if (gammaA <= 0)
-            {
-                WelcomeLabel.Hide();
-                progressBar.Hide();
-                FadeOuttimer.Stop();
-            }
-            gammaA--;
-        }
+
 
         private void LoginAdmin_Click(object sender, EventArgs e)
         {
