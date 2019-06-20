@@ -365,6 +365,8 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.label1.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.label1.Location = new System.Drawing.Point(-32, -29);
             this.label1.Name = "label1";
@@ -415,6 +417,7 @@
             // 
             // LogoutBtn
             // 
+            this.LogoutBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.LogoutBtn.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.LogoutBtn.FlatAppearance.BorderSize = 0;
             this.LogoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -529,6 +532,8 @@
             // 
             // UsersList
             // 
+            this.UsersList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.UsersList.Location = new System.Drawing.Point(994, 490);
             this.UsersList.Name = "UsersList";
             this.UsersList.Size = new System.Drawing.Size(131, 137);
@@ -538,6 +543,8 @@
             // 
             // CoursesList
             // 
+            this.CoursesList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.CoursesList.Location = new System.Drawing.Point(853, 490);
             this.CoursesList.Name = "CoursesList";
             this.CoursesList.Size = new System.Drawing.Size(135, 137);
